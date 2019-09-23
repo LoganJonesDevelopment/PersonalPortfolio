@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  position: relative; }
+
+#header {
+  background-color: #d6d6f5;
+  text-align: center; }
+
+body {
+  background-color: cornsilk;
+  height: 100%;
+  position: relative; }
+
+#portfolioItem {
+  background-color: lightblue;
+  height: 300px;
+  border-radius: 5%; }
+
+#whiteSpace {
+  height: 100px; }
+
+#avatarDiv {
+  padding-bottom: 1%;
+  padding-left: 2%; }
+
+#avatar {
+  border-radius: 50%;
+  height: 185px;
+  margin-top: 2%;
+  float: left; }
+
+.nameDiv {
+  display: inline-block; }
+
+.chefsCornerDiv {
+  background-size: cover;
+  background-image: url("content/images/chefCorner2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center; }
+
+.budgetManagementDiv {
+  background-size: cover;
+  background-image: url("content/images/budgetManagement.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center; }
+
+.portfolioItemTitle {
+  text-align: center;
+  font-size: 24px;
+  color: White;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-color: black;
+  margin-top: 25%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 5%;
+  opacity: .6; }
+
+footer {
+  background-color: #d6d6f5;
+  height: 50px;
+  text-align: center;
+  padding-top: 1%;
+  bottom: 0;
+  position: absolute;
+  width: 100%; }
