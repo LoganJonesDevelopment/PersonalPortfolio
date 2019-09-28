@@ -3,13 +3,30 @@ html {
     position: relative;
 }
 
+.navbar {
+    background-color: #41b3a3 !important;
+}
+
 #header {
-    background-color: #d6d6f5;
+    /*   background-color: #E27D60;  */
+    background-color: #85DCB0;
+    color: white;
     text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 45px;
+}
+
+.nameDiv {
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.name {
+    font-size: 45px;
 }
 
 body {
-    background-color: cornsilk;
+    background-color: #C38D9e;
     height: 100%;
     position: relative;
 }
@@ -36,13 +53,9 @@ body {
     float: left;
 }
 
-.nameDiv {
-    display: inline-block;
-}
-
 .chefsCornerDiv {
     background-size: cover;
-    background-image: url('content/images/chefCorner2.jpg');
+    background-image: url("../images/chefCorner2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -50,7 +63,7 @@ body {
 
 .budgetManagementDiv {
     background-size: cover;
-    background-image: url('content/images/budgetManagement.jpg');
+    background-image: url("../images/budgetManagement.jpg");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -71,12 +84,20 @@ body {
     opacity: .6;
 }
 
-footer {
-    background-color: #d6d6f5;
-    height: 50px;
-    text-align: center;
-    padding-top: 1%;
+.footer {
+    background-color: #85DCB0;
+    height: 150px;
+    padding-top: .25rem;
     bottom: 0;
-    position: absolute;
     width: 100%;
+}
+
+.footer h1 {
+    font-size: 26px;
+}
+
+.contactSocials {
+    float: right;
+    font-size: 30px;
+    margin-right: 1%;
 }
