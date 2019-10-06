@@ -69,6 +69,22 @@ body {
     text-align: center;
 }
 
+.gearShopDiv {
+    background-size: cover;
+    background-image: url("../images/gearShop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.emptyDiv {
+    background-size: cover;
+    /*   background-image: url("../images/gearShop.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
 .portfolioItemTitle {
     text-align: center;
     font-size: 24px;
@@ -86,18 +102,19 @@ body {
 
 .footer {
     background-color: #85DCB0;
-    height: 150px;
     padding-top: .25rem;
-    bottom: 0;
     width: 100%;
+    display: inline-block;
+    font-size: 15px;
 }
 
-.footer h1 {
-    font-size: 26px;
+.footer h3 {
+    font-size: 16px;
 }
 
 .contactSocials {
-    float: right;
     font-size: 30px;
     margin-right: 1%;
+    float: right;
+    width: 10%;
 }
