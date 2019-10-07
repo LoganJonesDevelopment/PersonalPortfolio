@@ -4,16 +4,24 @@ html {
 }
 
 .navbar {
-    background-color: #41b3a3 !important;
+    background: rgb(65, 179, 163);
+    background: linear-gradient(90deg, rgba(65, 179, 163, 1) 0%, rgba(195, 141, 158, 1) 72%);
+    -webkit-box-shadow: 0px 21px 29px -8px rgba(65, 179, 163, 1);
+    -moz-box-shadow: 0px 21px 29px -8px rgba(65, 179, 163, 1);
+    box-shadow: 0px 21px 29px -8px rgba(65, 179, 163, 1);
 }
 
 #header {
     /*   background-color: #E27D60;  */
+    padding-top: 1%;
     background-color: #85DCB0;
     color: white;
     text-align: center;
     font-family: 'Slabo 27px', serif;
     font-size: 45px;
+    -webkit-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
 }
 
 .nameDiv {
@@ -23,6 +31,29 @@ html {
 
 .name {
     font-size: 45px;
+}
+
+.portfolioDividerSub {
+    width: 25%;
+    border: 2px white solid;
+}
+
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.portfolioCategory {
+    font-family: 'Slabo 27px', serif;
+    color: white;
+    text-align: center;
+}
+
+.portfolioDividerMain {
+    width: 50%;
+    border: 2px #85DCB0 solid;
 }
 
 body {
