@@ -2,3 +2,4 @@
 
  
  1) Fix Dead Nav Bar Links
+ 2) Refactor js hover effects

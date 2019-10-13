@@ -29,6 +29,10 @@ html {
     margin-bottom: 5%;
 }
 
+.nameDiv h1 {
+    text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+}
+
 .name {
     font-size: 45px;
 }
@@ -38,9 +42,9 @@ html {
     border: 2px white solid;
 }
 
-a:link,
-a:visited,
-a:hover {
+.portfolioItemTitle a:link,
+.portfolioItemTitle a:visited,
+.portfolioItemTitle a:hover {
     text-decoration: none;
     color: white;
 }
@@ -49,6 +53,7 @@ a:hover {
     font-family: 'Slabo 27px', serif;
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 17px #17CE77;
 }
 
 .portfolioDividerMain {
@@ -148,11 +153,14 @@ body {
     font-size: 20px;
 }
 
+#socialIcons a:link,
+#socialIcons a:visited,
+#socialIcons a:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
 #sticky-footer {
     flex-shrink: none;
     background-color: #85DCB0 !important;
-}
-
-.footer div i {
-    font-size: 28px;
 }
