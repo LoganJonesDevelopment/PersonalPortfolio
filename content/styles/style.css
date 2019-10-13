@@ -54,6 +54,7 @@ a:hover {
 .portfolioDividerMain {
     width: 50%;
     border: 2px #85DCB0 solid;
+    margin-bottom: 3%;
 }
 
 body {
@@ -143,14 +144,15 @@ body {
     font-size: 16px;
 }
 
-.contactSocials {
-    font-size: 30px;
-    margin-right: 1%;
-    float: right;
-    width: 10%;
+#socialIcons {
+    font-size: 20px;
 }
 
 #sticky-footer {
     flex-shrink: none;
     background-color: #85DCB0 !important;
+}
+
+.footer div i {
+    font-size: 28px;
 }
