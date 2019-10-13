@@ -1,3 +1,5 @@
+/* Home Page/ All Pages Start */
+
 html {
     height: 100%;
     position: relative;
@@ -64,8 +66,11 @@ html {
 
 body {
     background-color: #C38D9e;
-    height: 100%;
+    min-height: 100%;
     position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 }
 
 #portfolioItem {
@@ -137,14 +142,6 @@ body {
     opacity: .6;
 }
 
-.footer {
-    background-color: #85DCB0;
-    padding-top: .25rem;
-    width: 100%;
-    display: inline-block;
-    font-size: 15px;
-}
-
 .footer h3 {
     font-size: 16px;
 }
@@ -161,6 +158,29 @@ body {
 }
 
 #sticky-footer {
-    flex-shrink: none;
     background-color: #85DCB0 !important;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+
+/* Home Page/ All Pages End */
+
+
+/* About Pages Start */
+
+#aboutDiv h1 {
+    font-family: 'Slabo 45px', serif;
+    font-size: 60px;
+    color: white;
+}
+
+#aboutDiv h2 {
+    font-family: 'Slabo 45px', serif;
+    font-size: 45px;
+    color: white;
 }
