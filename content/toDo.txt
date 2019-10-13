@@ -1,0 +1,4 @@
+ -- To Do --
+
+ 1) Make footer mobile friendly, adjust icons
+ 2) Fix Dead Nav Bar Links

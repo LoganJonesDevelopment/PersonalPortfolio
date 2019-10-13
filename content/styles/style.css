@@ -149,3 +149,8 @@ body {
     float: right;
     width: 10%;
 }
+
+#sticky-footer {
+    flex-shrink: none;
+    background-color: #85DCB0 !important;
+}
