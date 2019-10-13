@@ -47,14 +47,28 @@
 
             </div>
         </div>
+
         <div class="row">
 
             <div class="col-md-5 pt-5">
-                <h2>Email</h2>
-                <p class="pt-2">For business matters I can be reached at LoganJonesDevelopment@gmail.com. Shoot me a message, I would love to chat.</p>
+                <h2>Shoot me a message!</h2>
+                <div class="contactForm col-md-4">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                            <label>Your Name: <input type="text" name="name" /></label>
+                        </p>
+                        <p>
+                            <label>Your Email: <input type="email" name="email" /></label>
+                        </p>
 
-                <a hre="https://github.com/LoganJonesDevelopment"></a>
-                </img>
+                        <p>
+                            <label>Message: <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>
+                </div>
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-5 pt-5" id="githubDiv">
@@ -66,6 +80,9 @@
                 </img>
             </div>
 
+        </div>
+        <div class="row pt-5 text-center text-white">
+            <p>If you want to reach out directly, I can be contacted at LoganJonesDevelopment@gmail.com.</p>
         </div>
     </div>
     </div>
