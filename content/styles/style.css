@@ -25,12 +25,14 @@
 
 #sticky-footer {
     background-color: #85DCB0 !important;
+    color: #e6e6e6;
     height: 80px;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
+    background: linear-gradient(180deg, rgba(195, 141, 158, 1) 0%, rgba(65, 179, 163, 1) 72%);
 }
 
 
@@ -200,6 +202,16 @@ body {
     font-family: 'Slabo 45px', serif;
     font-size: 45px;
     color: white;
+    text-align: center;
+}
+
+#aboutDivExperience,
+#aboutDivEducation {
+    background: rgb(65, 179, 163);
+    border-radius: 25px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 
