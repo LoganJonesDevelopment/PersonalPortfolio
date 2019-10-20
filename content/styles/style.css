@@ -1,9 +1,4 @@
-/* Home Page/ All Pages Start */
-
-html {
-    height: 100%;
-    position: relative;
-}
+/* All Pages Start */
 
 .navbar {
     background: rgb(65, 179, 163);
@@ -11,6 +6,39 @@ html {
     -webkit-box-shadow: 0px 21px 29px -8px rgba(65, 179, 163, 1);
     -moz-box-shadow: 0px 21px 29px -8px rgba(65, 179, 163, 1);
     box-shadow: 0px 21px 29px -8px rgba(65, 179, 163, 1);
+}
+
+.footer h3 {
+    font-size: 16px;
+}
+
+#socialIcons {
+    font-size: 20px;
+}
+
+#socialIcons a:link,
+#socialIcons a:visited,
+#socialIcons a:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+#sticky-footer {
+    background-color: #85DCB0 !important;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+
+/* All Pages End */
+
+html {
+    height: 100%;
+    position: relative;
 }
 
 #header {
@@ -33,6 +61,9 @@ html {
 
 .nameDiv h1 {
     text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+    background: -webkit-radial-gradient(white, #C38D9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .name {
@@ -62,6 +93,9 @@ html {
     width: 50%;
     border: 2px #85DCB0 solid;
     margin-bottom: 3%;
+    -webkit-box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
 body {
@@ -119,6 +153,14 @@ body {
     text-align: center;
 }
 
+.githubDiv {
+    background-size: cover;
+    background-image: url("../images/github.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
 .emptyDiv {
     background-size: cover;
     /*   background-image: url("../images/gearShop.jpg"); */
@@ -140,31 +182,6 @@ body {
     padding-right: 2%;
     border-radius: 5%;
     opacity: .6;
-}
-
-.footer h3 {
-    font-size: 16px;
-}
-
-#socialIcons {
-    font-size: 20px;
-}
-
-#socialIcons a:link,
-#socialIcons a:visited,
-#socialIcons a:hover {
-    color: black !important;
-    text-decoration: none;
-}
-
-#sticky-footer {
-    background-color: #85DCB0 !important;
-    height: 80px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
 }
 
 
@@ -191,4 +208,21 @@ body {
 
 /* Contact Page Start */
 
-.contactForm {}
+#contactDirect {
+    background-color: #85DCB0 !important;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    height: 100px;
+}
+
+#contactBody h1 {
+    color: rgb(65, 179, 163);
+    background: -webkit-linear-gradient(#85DCB0, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#contactBody form input,
+#contactBody form textarea {
+    background-color: #85DCB0;
+}
